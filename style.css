@@ -72,14 +72,19 @@ main {
 }
 
 .nav-right-link a > img {
-  width: 40px;
+  width: 35px;
 }
 
-.hero img {
+/* H E R O */
+
+.hero-image {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: -1;
+}
+
+.hero img {
   width: 100%;
 }
