@@ -91,7 +91,7 @@ main {
 
 .hero-logo {
   position: absolute;
-  top: 15%;
+  top: 8%;
   left: 50%;
   transform: translateX(-50%);
   width: 20%;
@@ -180,4 +180,29 @@ main {
   cursor: pointer;
   line-height: 1em;
   text-transform: uppercase;
+}
+
+/* SECTION CLAN WAR */
+
+.section-clan-war {
+  position: relative;
+}
+
+.section-clan-war img {
+  width: 100%;
+}
+
+.section-clan-war-container {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+
+.section-clan-war-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
