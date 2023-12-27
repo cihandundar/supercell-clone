@@ -186,6 +186,7 @@ main {
 
 .section-clan-war {
   position: relative;
+  color: #fff;
 }
 
 .section-clan-war img {
@@ -206,3 +207,36 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.section-clan-war-text p {
+  margin-block: 25px;
+  line-height: 1.5;
+}
+
+.clan-war-list {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.clan-war-list li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.clan-war-list li > img {
+  width: 30px;
+  height: 30px;
+  object-fit: cont;
+}
+
+.section-clan-war-image {
+  width: 100%;
+}
+
+.section-clan-war-image img {
+  width: 700px;
+  margin-right: -150px;
+}
+
+/* SECTION SLIDER */
