@@ -114,9 +114,10 @@ main {
 
 .section-info-image img {
   width: 900px;
-  margin-left: -300px;
+  margin-left: -250px;
 }
 .section-info-text {
+  margin-left: 100px;
   width: 800px;
   padding: 50px;
 }
