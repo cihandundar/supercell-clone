@@ -110,6 +110,8 @@ main {
 .section-info-container {
   display: flex;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section-info-image img {
@@ -117,8 +119,6 @@ main {
   margin-left: -250px;
 }
 .section-info-text {
-  margin-left: 100px;
-  width: 800px;
   padding: 50px;
 }
 .section-info-text p {
@@ -134,3 +134,5 @@ main {
   width: 150px;
   margin-right: 10px;
 }
+
+/* SECTION NEWS */
