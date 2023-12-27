@@ -25,6 +25,9 @@ main {
   background-color: #000;
   height: 100%;
   margin: 0 auto;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
 }
 /* N A V  */
 .nav {
@@ -78,13 +81,56 @@ main {
 /* H E R O */
 
 .hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+  position: relative;
+  top: -130px;
 }
 
 .hero img {
   width: 100%;
+}
+
+.hero-logo {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+  min-width: 300px;
+  min-height: 130px;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.hero-logo img {
+  width: 300px;
+}
+
+/*  SECTION INFO */
+
+.section-info-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.section-info-image img {
+  width: 900px;
+  margin-left: -300px;
+}
+.section-info-text {
+  padding: 50px;
+}
+.section-info-text p {
+  margin-block: 20px;
+}
+
+.sectino-info-text-logo {
+  display: flex;
+  align-items: center;
+}
+
+.sectino-info-text-logo img {
+  width: 150px;
+  margin-right: 10px;
 }
