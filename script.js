@@ -45,10 +45,16 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
 
-document.querySelectorAll("nav-link").forEach(
-  (n) => n.addEventListener("click"),
-  () => {
+document.querySelectorAll(".nav-link").forEach((link) => {
+  link.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  });
+});
+
+window.addEventListener("scroll", () => {
+  if (navMenu.classList.contains("active")) {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }
-);
+});
