@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const searchIcon = document.getElementById("search");
+  const inputElement = document.getElementById("input");
+
+  searchIcon.addEventListener("click", function () {
+    inputElement.classList.toggle("hidden");
+    inputElement.style.top = "30px";
+  });
+});
+
 const initSlider = () => {
   const slideBox = document.querySelector(
     ".section-slider-container .section-slider-conmtainer-wrapper"
