@@ -91,7 +91,7 @@ main {
 
 .hero-logo {
   position: absolute;
-  top: 8%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   width: 20%;
@@ -207,7 +207,9 @@ main {
   align-items: center;
   justify-content: center;
 }
-
+.section-clan-war-text {
+  padding: 50px;
+}
 .section-clan-war-text p {
   margin-block: 25px;
   line-height: 1.5;
@@ -240,3 +242,156 @@ main {
 }
 
 /* SECTION SLIDER */
+.section-slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-block: 60px;
+}
+
+.section-slider-box {
+  position: relative;
+  width: 700px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.section-slider-box-bottom h4 {
+  color: #2d85f3;
+}
+
+.section-slider-box:hover h4 {
+  color: grey;
+}
+
+.section-slider-box-image img {
+  width: 100%;
+}
+
+.section-slider-box-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.section-slider-box-bottom img {
+  width: 120px;
+}
+
+.play {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+  min-width: 300px;
+  min-height: 130px;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+/* FOOTER INFO */
+.footer-info {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #2887f0;
+}
+
+.footer-info-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 190px;
+  display: flex;
+  align-items: center;
+}
+.footer-info-container-text {
+  text-align: center;
+}
+
+.footer-info-container-text h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer-info-container-text button {
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  padding: 0.75em 1.5em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer-info-container-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-info-container-image img {
+  width: 250px;
+}
+
+/* FOOTER */
+
+.footer {
+  color: #fff;
+  background-color: #000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-block: 50px;
+}
+
+.footer-container-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 50px;
+}
+
+.footer-container-top-left h4 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.footer-container-top-left-logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer-container-top-right img {
+  width: 150px;
+  height: 50px;
+}
+
+/* FOOTER CENTER */
+
+.footer-container-center {
+  padding-top: 50px;
+}
+
+.footer-container-center-list {
+  display: flex;
+}
+
+.footer-container-center-list > li {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer-container-center-list > li:not(:last-child) {
+  margin-right: 30px;
+}
