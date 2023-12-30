@@ -227,7 +227,7 @@ main {
 
 @media screen and (max-width: 1024px) {
   .hero-image {
-    top: -50px;
+    top: 0px;
   }
 
   .hero-logo {
@@ -235,7 +235,14 @@ main {
     top: 3%;
   }
 }
-
+@media screen and (max-width: 425px) {
+  .hero-logo {
+    left: 60%;
+  }
+  .hero-logo img {
+    width: 200px;
+  }
+}
 /*  SECTION INFO */
 
 .section-info-container {
@@ -283,6 +290,11 @@ main {
 
   .sectino-info-text-logo {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sectino-info-text-logo {
+    flex-wrap: wrap;
   }
 }
 
@@ -421,6 +433,12 @@ main {
     height: 100%;
     margin-right: 0;
     padding: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-clan-war-image img {
+    width: 100%;
   }
 }
 
@@ -580,6 +598,12 @@ main {
     width: 250px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer-info-container-text h1 {
+    font-size: 1.5rem;
+  }
+}
 /* FOOTER */
 
 .footer {
@@ -591,6 +615,12 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding-block: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-container {
+    padding: 30px;
+  }
 }
 
 .footer-container-top {
@@ -617,6 +647,30 @@ main {
   height: 50px;
 }
 
+.footer-top-logo-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-top-logo-mobile {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .footer-container-top-right {
+    margin-top: 30px;
+    border-top: 1px solid grey;
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
 /* FOOTER CENTER */
 
 .footer-container-center {
@@ -634,6 +688,16 @@ main {
 }
 .footer-container-center-list > li:not(:last-child) {
   margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container-center-list {
+    flex-direction: column;
+  }
+  .footer-container-center-list > li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
 
 /* FOOTER BOTTOM */
