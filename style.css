@@ -529,6 +529,36 @@ main {
   object-fit: contain;
 }
 
+@media screen and (max-width: 425px) {
+  .section-slider-box {
+    width: 100%;
+  }
+
+  .play {
+    top: -20px;
+    min-width: 0;
+  }
+
+  .slide-button#prev-slide {
+    display: none !important;
+  }
+
+  .slide-button#next-slide {
+    display: none !important;
+  }
+
+  .section-slider-box-bottom {
+    flex-direction: column;
+  }
+  .section-slider-box-bottom h4 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .section-slider-box-bottom img {
+    width: 100px;
+    margin-top: 10px;
+  }
+}
 /* FOOTER INFO */
 .footer-info {
   margin-top: 50px;
