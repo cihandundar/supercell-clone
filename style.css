@@ -171,6 +171,23 @@ main {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+  .section-info-container {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-info-image img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sectino-info-text-logo {
+    justify-content: center;
+  }
+}
+
 /* SECTION NEWS */
 
 .section-news-container {
@@ -213,6 +230,15 @@ main {
   cursor: pointer;
   line-height: 1em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-news-wrapper {
+    flex-direction: column;
+  }
+  .section-news-box {
+    margin-bottom: 30px;
+  }
 }
 
 /* SECTION CLAN WAR */
@@ -274,6 +300,32 @@ main {
   margin-right: -150px;
 }
 
+@media screen and (max-width: 1024px) {
+  .section-clan-war img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .section-clan-war-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-clan-war-text {
+    padding-right: 0;
+    padding: 30px;
+  }
+
+  .clan-war-list {
+    justify-content: center;
+  }
+  .section-clan-war-image img {
+    height: 100%;
+    margin-right: 0;
+    padding: 30px;
+  }
+}
+
 /* SECTION SLIDER */
 .section-slider {
   position: relative;
@@ -304,6 +356,7 @@ main {
   padding: 20px 30px;
   cursor: pointer;
   top: 50%;
+  z-index: 99999;
 }
 
 .slide-button#prev-slide {
@@ -408,6 +461,27 @@ main {
   width: 250px;
 }
 
+.footer-info-container-mobile-image {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-info-container {
+    flex-direction: column;
+    height: 100%;
+    padding-top: 50px;
+  }
+  .footer-info-container-image {
+    display: none;
+  }
+  .footer-info-container-mobile-image {
+    margin-top: 30px;
+    display: block;
+  }
+  .footer-info-container-mobile-image img {
+    width: 250px;
+  }
+}
 /* FOOTER */
 
 .footer {
