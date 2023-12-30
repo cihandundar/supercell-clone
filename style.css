@@ -91,7 +91,7 @@ main {
 
 .hero-logo {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   width: 20%;
@@ -394,4 +394,23 @@ main {
 }
 .footer-container-center-list > li:not(:last-child) {
   margin-right: 30px;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-container-bottom {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container-bottom-left p {
+  color: grey;
+  line-height: 1.5;
+}
+
+.footer-container-bottom-right img {
+  width: 60px;
 }
